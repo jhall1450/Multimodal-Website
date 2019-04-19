@@ -218,7 +218,7 @@ p {
 #passwords {
   background-image: url("../images/security.jpg");
   background-position: center;
-  background-repeat: none;
+  background-repeat: no-repeat;
 
   height: auto;
   width: 450px;
@@ -228,7 +228,7 @@ p {
 #phishing {
   background-image: url("../images/email.jpg");
   background-position: center;
-  background-repeat: none;
+  background-repeat: no-repeat;
 
   height: auto;
   width: 450px;
