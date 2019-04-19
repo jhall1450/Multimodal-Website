@@ -202,17 +202,17 @@ p {
 }
 
 .content a:link {
+  color: #E00122 !important;
+  font-weight: bold;
   text-decoration: none;
-  color: #fff;
 }
 
 .content a:visited {
-  color: #fff;
+  color: #E00122 !important;
 }
 
 .content a:hover {
   text-decoration: underline;
-  color: #fff;
 }
 
 #passwords {
