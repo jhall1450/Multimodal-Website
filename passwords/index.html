@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>UC Security Tips - Passwords</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="icon" type="image/ico" href="../images/favicon.ico">
+  <meta charset="UTF-8">
+  <link href="https://fonts.googleapis.com/css?family=Bungee|PT+Sans" rel="stylesheet">
+</head>
+<body>
+  <div class="halfbg" id="halfbgpasswords">
+    <nav>
+      <ul class="nav">
+        <li><a href="https://uc.edu"><img src="../images/uc-web-logo-white.svg" alt="University of Cincinnati Logo"></a></li>
+      </ul>
+    </nav>
+    <div id="header2">
+      <h1> Passwords </h1>
+    </div>
+  </div>
+
+  <div class="content guide-content">
+    <div class="wrapper2">
+      <hr>
+      <h2> What makes a password secure? </h2>
+      <hr>
+    </div>
+      <div class="wrapper">
+        <p>This guide is here to help you make a stronger password to keep your account, and others, safe from being breached. We will look at UC's password requirements and expand upon why they are necessary, and then move in to how you can make your account more secure.</p>
+        <div id="pass-reqs">
+          <ul>
+            <li>Must be at least 8 characters long</li>
+            <li>Must be no more than 24 characters long</li>
+            <li>Must include at least 1 number</li>
+            <li>Must have at least 1 lowercase letter</li>
+            <li>Must have at least 1 uppercase letter</li>
+            <li>Must not include part of your name or user name</li>
+            <li>New password may not have been used previously</li>
+          </ul>
+        </div>
+        <p>While this may seem like a lot of requirements for just a password, these help keep you and UC's network secure from attackers.
+          The first two requirements, relating to the length of your password, are in place to mitigate Brute Force attacks.
+          Brute Force attacks work by trying every possible combination of letters, numbers, and symbols until the attacker gets a correct match.
+          There are online tools which can estimate how long it would take to crack a password, like <a href="https://www.betterbuys.com/estimating-password-cracking-times/" target="_about">this one</a>,
+          although it should be mentioned that you should <span style="font-weight: bold"> never </span> put your actual password into these websites.
+          You can get a proper estimate by using something similar to your password.
+          Multiple types of characters, as well as longer passwords will both lengthen the amount of time that a Brute Force attack must run.
+        </p>
+        <img src="https://imgs.xkcd.com/comics/password_strength.png" alt="XKCD Password Strength Comic" title="xkcd.com">
+        <p>UC passwords are also not allowed to have any part of your name in it. This is to prevent users from using passwords that are easy to guess by a potential attacker. The final requirement is that the new password must not have been used previously with this account. Reusing passwords, whether it be for the same account or across mulitple websites, is a massive security risk. If a single account of a user who reuses passwords is compromised, that attackers task becomes much easier in gaining access to other accounts made by the user. According to <a href="https://securityintelligence.com/a-proposed-solution-to-the-password-reuse-problem/" target="_blank">Security Intelligence</a>, over 75% of people reuse passwords across multiple accounts. This problem can be remedied by using a password manager, such as <a href="https://lastpass.com" target="_blank">LastPass</a> or <a href="https://1password.com/" target="_blank">1Password</a>, which can generate unique & strong passwords for all of your accounts.
+        </p>
+      </div>
+    <div>
+      <div class="wrapper2">
+        <hr>
+        <h2> Identifying a compromised account </h2>
+        <hr>
+      </div>
+        <div class="wrapper">
+          <p>If your account becomes compromised, it can then be used as a 'trusted' point of access into UC's network.
+          There are several ways to identify a compromised account with the most obvious being major changes to your email account.
+          This can manifest in the form of emails coming from your account (located in your 'Sent Mail' folder) that you do not recognize, missing emails from your 'Sent Mail' folder, or an email from UCIT stating that your account has been disabled.
+          If UCIT notices a large amount of emails being sent from your account, they will disable your email to prevent more 'Spam' from being sent. Often times the goal for compromising a UC account is to send out Phishing Emails to other users at UC, more of which can be read about <a href="../phishing/index.html">here</a>.
+          The ultimate goal for a hacker having multiple accounts under their control varies, but one attack that they can run is a <a href="https://www.cloudflare.com/learning/ddos/what-is-a-ddos-attack/" target="_blank">Denial of Service</a> attack.
+          </p>
+        </div>
+      <div class="wrapper2">
+        <hr>
+        <h2> What to do if your account gets compromised? </h2>
+        <hr>
+      </div>
+        <div class="wrapper">
+          <p>If you suspect that your account may have been compromised, change your password immediately. Your can change your UC password by visiting the UC <a href="https://uc.edu/pss" target="_blank">Password Self       Service</a> website. This is the quickest and most effective way to take back control of your account.
+            If you suspect that your account is still compromised after changing your password contact UCIT by calling 513-556-4357, <a href="https://uc.teamdynamix.com/TDClient/Home/" target="_blank"> submitting a ticket </a>, or visiting RESNET located on Main Street for further assistance.
+          </p>
+        </div>
+      <div id="home-button" class="buttons">
+        <a href="..\index.html"><button>Home</button></a>
+      </div>
+    </div>
+  </div>
+
+    <footer>
+      <div class="wrapper">
+        <div class="links">
+          <ul>
+            <li id="uselink"><h4>Useful Links</h4></li>
+            <li><h3><a href="https://uc.edu">UC Home</a></h3></li>
+            <li><h3><a href="https://uc.edu/pss">Password Self Service</a></h3></li>
+            <li><h3><a href="https://mail.uc.edu">UC Student Email</a></h3></li>
+          </ul>
+        </div>
+        <div id="disclaimer">
+            <small>This page was created by Justin Hall for ENGL1001, Multimodal Project. This is intended to aid students with basic security practices. All rights to graphics used on this page belong to the University of Cincinnati.<br> <a href="mailto:hall3jl@mail.uc.edu">hall3jl@mail.uc.edu</a> </small>
+        </div>
+        <div class="clear"></div>
+      </div>
+    </footer>
+  </body>
+</html>
