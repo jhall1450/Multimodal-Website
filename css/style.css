@@ -330,8 +330,9 @@ footer {
 .guide-content img {
   display: block;
   margin: 0 auto;
-  max-width: 740px !important;
-  height: 601px;
+  height: auto;
+  width: 100%;
+  max-width: 700px;
 }
 
 #header2 {
