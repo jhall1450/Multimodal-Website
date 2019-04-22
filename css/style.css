@@ -216,9 +216,10 @@ p {
 }
 
 #passwords {
-  background-image: url("../images/security.jpg");
+  background-image: url("../images/security-full.jpg");
   background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
 
   height: auto;
   width: 450px;
@@ -386,7 +387,7 @@ footer {
     }
 
     #guides button {
-      height: auto;
+      height: 175px;
       width: 100%;
       margin: 0px;
       padding: 10px 0px;
